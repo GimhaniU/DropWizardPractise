@@ -1,0 +1,8 @@
+template: Hello, %s!
+defaultName: Stranger
+
+productId: 23
+productName: Abc
+tags:
+location:
+max_price:
