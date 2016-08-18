@@ -11,6 +11,12 @@ public class SimpleProjectApplication extends Application<SimpleProjectConfigura
 
     public static void main(final String[] args) throws Exception {
         new SimpleProjectApplication().run(args);
+
+        /*TransportClient client = TransportClient.builder().build()
+                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), 9300));
+        ProductInfoService service=new ProductInfoService();
+        service.getProducts(client,"1");*/
+
     }
 
     @Override
